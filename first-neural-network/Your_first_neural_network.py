@@ -1,10 +1,8 @@
 
 # coding: utf-8
+# 你的第一个神经网络
 
-# # 你的第一个神经网络
-# 
-# 在此项目中，你将构建你的第一个神经网络，并用该网络预测每日自行车租客人数。我们提供了一些代码，但是需要你来实现神经网络（大部分内容）。提交此项目后，欢迎进一步探索该数据和模型。
-
+在此项目中，你将构建你的第一个神经网络，并用该网络预测每日自行车租客人数。我们提供了一些代码，但是需要你来实现神经网络（大部分内容）。提交此项目后，欢迎进一步探索该数据和模型。
 # In[1]:
 
 
@@ -155,15 +153,15 @@ class NeuralNetwork(object):
         #
         # Note: in Python, you can define a function with a lambda expression,
         # as shown below.
-        self.activation_function = lambda x : 1 / (1+np.exp(-x))
+        #self.activation_function = lambda x : 1 / (1+np.exp(-x))
         
         ### If the lambda code above is not something you're familiar with,
         # You can uncomment out the following three lines and put your 
         # implementation there instead.
         #
-        #def sigmoid(x):
-        #    return 0  # Replace 0 with your sigmoid calculation here
-        #self.activation_function = sigmoid
+        def sigmoid(x):
+            return 1 / (1+np.exp(-x))
+        self.activation_function = sigmoid
                     
     
     def train(self, features, targets):
@@ -339,9 +337,9 @@ unittest.TextTestRunner().run(suite)
 import sys
 
 ### Set the hyperparameters here ###
-iterations = 5000
-learning_rate = 0.1
-hidden_nodes = 128
+iterations = 3000
+learning_rate = 0.8
+hidden_nodes = 14
 output_nodes = 1
 
 N_i = train_features.shape[1]
@@ -406,4 +404,4 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 # #### 请将你的答案填写在下方
 # 
 
-# https://yinguobing.com/udacity-your-first-neural-network/
+# https://yinguobing.com/udacity-your-first-neural-network-review/
