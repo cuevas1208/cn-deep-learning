@@ -1,23 +1,18 @@
-# cn-deep-learning
+# Udacity纳米学位项目集
 
-优达学城[深度学习基石纳米学位](https://cn.udacity.com/course/deep-learning-nanodegree-foundation--nd101/)项目文档。
+该repo是我在Udacity[深度学习基石纳米学位](https://cn.udacity.com/course/deep-learning-nanodegree-foundation--nd101/)中完成的项目集。内容包括：
 
-[点击这里](https://github.com/udacity/deep-learning)查看项目文档的英文版本，以及这门课程的更多教程。
+## 预测共享单车的日使用量
+https://github.com/yinguobing/cn-deep-learning/tree/master/first-neural-network
 
-如果你发现任何翻译错误，或有任何建议，欢迎提交 issue 告诉我们！
+## 使用卷积神经网络进行图像分类
+https://github.com/yinguobing/cn-deep-learning/tree/master/image-classification
 
+## 电视剧剧本生成（尚未开始）
+https://github.com/yinguobing/cn-deep-learning/tree/master/tv-script-generation
 
+## 语言翻译（尚未开始）
+https://github.com/yinguobing/cn-deep-learning/tree/master/language-translation
 
-
-
-## Dependencies
-
-Each directory has a `requirements.txt` describing the minimal dependencies required to run the notebooks in that directory.
-
-### pip
-
-To install these dependencies with pip, you can issue `pip3 install -r requirements.txt`.
-
-### Conda Environments
-
-You can find Conda environment files for the Deep Learning program in the `environments` folder. Note that environment files are platform dependent. Versions with `tensorflow-gpu` are labeled in the filename with "GPU".
+## 人脸生成（尚未开始）
+https://github.com/yinguobing/cn-deep-learning/tree/master/face-generation
