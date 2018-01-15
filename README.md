@@ -11,7 +11,7 @@ https://github.com/yinguobing/cn-deep-learning/tree/master/image-classification
 ## 生成电视剧剧本《辛普森一家》（评审中）
 https://github.com/yinguobing/cn-deep-learning/tree/master/tv-script-generation
 
-## 语言翻译（尚未开始）
+## 语言翻译（进行中）
 https://github.com/yinguobing/cn-deep-learning/tree/master/language-translation
 
 ## 人脸生成（尚未开始）
