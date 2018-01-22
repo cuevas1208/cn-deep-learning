@@ -14,5 +14,5 @@ https://github.com/yinguobing/cn-deep-learning/tree/master/tv-script-generation
 ## 语言翻译
 https://github.com/yinguobing/cn-deep-learning/tree/master/language-translation
 
-## 人脸生成（进行中）
+## 人脸生成
 https://github.com/yinguobing/cn-deep-learning/tree/master/face-generation
